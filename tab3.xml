@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.constraint.ConstraintLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent">
+
+
+
+    <TextView
+
+        android:id="@+id/textView15"
+
+        android:layout_width="412dp"
+
+        android:layout_height="70dp"
+
+        android:text="4.Addictions if any?If yes,please specify."
+
+        android:textSize="24sp"
+
+        android:textStyle="bold"
+
+        tools:layout_editor_absoluteX="4dp"
+
+        tools:layout_editor_absoluteY="4dp"
+        tools:ignore="MissingConstraints" />
+
+
+
+    <EditText
+
+        android:id="@+id/editText16"
+
+        android:layout_width="376dp"
+
+        android:layout_height="87dp"
+
+        android:layout_marginTop="28dp"
+
+        android:ems="10"
+
+        android:inputType="textMultiLine"
+
+        app:layout_constraintTop_toBottomOf="@+id/textView15"
+
+        tools:layout_editor_absoluteX="4dp"
+        tools:ignore="MissingConstraints" />
+
+
+
+    <TextView
+
+        android:id="@+id/textView21"
+
+        android:layout_width="349dp"
+
+        android:layout_height="90dp"
+
+        android:text="5.H/O previous allergies/Drug Reactions,if any.If yes,please specify. "
+
+        android:textSize="24sp"
+
+        android:textStyle="bold"
+
+        tools:layout_editor_absoluteX="4dp"
+
+        tools:layout_editor_absoluteY="231dp"
+        tools:ignore="MissingConstraints" />
+
+
+
+    <EditText
+
+        android:id="@+id/editText17"
+
+        android:layout_width="397dp"
+
+        android:layout_height="92dp"
+
+        android:ems="10"
+
+        android:inputType="textMultiLine"
+
+        tools:layout_editor_absoluteX="4dp"
+
+        tools:layout_editor_absoluteY="351dp"
+        tools:ignore="MissingConstraints" />
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.constraint.ConstraintLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent">
+
+
+
+
+
+    <TextView
+
+        android:id="@+id/textView13"
+
+        android:layout_width="412dp"
+
+        android:layout_height="wrap_content"
+
+        android:text="2.Description of the Suspected Adverse Reaction"
+
+        android:textSize="24sp"
+
+        android:textStyle="bold"
+
+        app:layout_constraintBottom_toTopOf="@+id/textView14"
+
+        tools:layout_editor_absoluteX="0dp"
+        tools:ignore="MissingConstraints" />
+
+
+
+    <TextView
+
+        android:id="@+id/textView14"
+
+        android:layout_width="402dp"
+
+        android:layout_height="wrap_content"
+
+        android:layout_marginBottom="8dp"
+
+        android:text="Date and Time of Initial Observation:"
+
+        android:textSize="18sp"
+
+        android:textStyle="bold"
+
+        app:layout_constraintBottom_toTopOf="@+id/editText12"
+
+        tools:ignore="MissingConstraints"
+
+        tools:layout_editor_absoluteX="0dp" />
+
+
+
+    <TextView
+
+        android:id="@+id/textView16"
+
+        android:layout_width="68dp"
+
+        android:layout_height="30dp"
+
+        android:text="Date: "
+
+        android:textAlignment="center"
+
+        android:textSize="18sp"
+
+        tools:ignore="MissingConstraints"
+
+        tools:layout_editor_absoluteX="2dp"
+
+        tools:layout_editor_absoluteY="116dp" />
+
+
+
+    <EditText
+
+        android:id="@+id/editText12"
+
+        android:layout_width="123dp"
+
+        android:layout_height="32dp"
+
+        android:layout_marginBottom="8dp"
+
+        android:ems="10"
+
+        android:inputType="date"
+
+        app:layout_constraintBottom_toTopOf="@+id/editText13"
+
+        tools:ignore="MissingConstraints"
+
+        tools:layout_editor_absoluteX="74dp" />
+
+
+
+    <TextView
+
+        android:id="@+id/textView17"
+
+        android:layout_width="67dp"
+
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="20dp"
+
+        android:text="Time:"
+
+        android:textAlignment="center"
+
+        android:textSize="18sp"
+
+        app:layout_constraintTop_toBottomOf="@+id/textView16"
+
+        tools:ignore="MissingConstraints"
+
+        tools:layout_editor_absoluteX="3dp" />
+
+
+
+    <EditText
+
+        android:id="@+id/editText13"
+
+        android:layout_width="114dp"
+
+        android:layout_height="31dp"
+
+        android:ems="10"
+
+        android:inputType="time"
+
+        tools:ignore="MissingConstraints"
+
+        tools:layout_editor_absoluteX="82dp"
+
+        tools:layout_editor_absoluteY="160dp" />
+
+
+
+    <TextView
+
+        android:id="@+id/textView18"
+
+        android:layout_width="403dp"
+
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="40dp"
+
+        android:text="Description of Rection: "
+
+        android:textSize="18sp"
+
+        android:textStyle="bold"
+
+        app:layout_constraintTop_toBottomOf="@+id/textView17"
+
+        tools:ignore="MissingConstraints"
+
+        tools:layout_editor_absoluteX="0dp" />
+
+
+
+    <EditText
+
+        android:id="@+id/editText14"
+
+        android:layout_width="397dp"
+
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="8dp"
+
+        android:ems="10"
+
+        android:inputType="textMultiLine"
+
+        app:layout_constraintTop_toBottomOf="@+id/textView18"
+
+        tools:ignore="MissingConstraints"
+
+        tools:layout_editor_absoluteX="0dp" />
+
+
+
+    <TextView
+
+        android:id="@+id/textView19"
+
+        android:layout_width="410dp"
+
+        android:layout_height="70dp"
+
+        android:layout_marginTop="32dp"
+
+        android:text="3.Whether the person is Suffering from any Chronic Disorder?"
+
+        android:textAllCaps="false"
+
+        android:textSize="24sp"
+
+        android:textStyle="bold"
+
+        app:layout_constraintTop_toBottomOf="@+id/editText14"
+
+        tools:ignore="MissingConstraints"
+
+        tools:layout_editor_absoluteX="2dp" />
+
+
+
+    <TextView
+
+        android:id="@+id/textView20"
+
+        android:layout_width="208dp"
+
+        android:layout_height="31dp"
+
+        android:layout_marginTop="8dp"
+
+        android:text="(If yes,please specify)"
+
+        android:textSize="18sp"
+
+        app:layout_constraintTop_toBottomOf="@+id/textView19"
+
+        tools:ignore="MissingConstraints"
+
+        tools:layout_editor_absoluteX="0dp" />
+
+
+
+    <CheckBox
+
+        android:id="@+id/checkBox"
+
+        android:layout_width="104dp"
+
+        android:layout_height="36dp"
+
+        android:layout_marginTop="8dp"
+
+        android:text="Hepatic"
+
+        android:textSize="18sp"
+
+        app:layout_constraintTop_toBottomOf="@+id/textView20"
+
+        tools:ignore="MissingConstraints"
+
+        tools:layout_editor_absoluteX="2dp" />
+
+
+
+    <CheckBox
+
+        android:id="@+id/checkBox2"
+
+        android:layout_width="106dp"
+
+        android:layout_height="34dp"
+
+        android:text="Rental"
+
+        android:textSize="18sp"
+
+        app:layout_constraintTop_toBottomOf="@+id/checkBox"
+
+        tools:ignore="MissingConstraints"
+
+        tools:layout_editor_absoluteX="0dp" />
+
+
+
+    <CheckBox
+
+        android:id="@+id/checkBox3"
+
+        android:layout_width="106dp"
+
+        android:layout_height="wrap_content"
+
+        android:text="Cardiac"
+
+        android:textSize="18sp"
+
+        app:layout_constraintTop_toBottomOf="@+id/checkBox2"
+
+        tools:ignore="MissingConstraints"
+
+        tools:layout_editor_absoluteX="0dp" />
+
+
+
+    <CheckBox
+
+        android:id="@+id/checkBox4"
+
+        android:layout_width="105dp"
+
+        android:layout_height="wrap_content"
+
+        android:text="Diabetec"
+
+        android:textSize="18sp"
+
+        app:layout_constraintTop_toBottomOf="@+id/checkBox3"
+
+        tools:ignore="MissingConstraints"
+
+        tools:layout_editor_absoluteX="2dp" />
+
+
+
+    <CheckBox
+
+        android:id="@+id/checkBox5"
+
+        android:layout_width="109dp"
+
+        android:layout_height="30dp"
+
+        android:text="Any Others"
+
+        app:layout_constraintTop_toBottomOf="@+id/checkBox4"
+
+        tools:ignore="MissingConstraints"
+
+        tools:layout_editor_absoluteX="0dp" />
+
+
+
+    <EditText
+
+        android:id="@+id/editText15"
+
+        android:layout_width="245dp"
+
+        android:layout_height="73dp"
+
+        android:layout_marginTop="12dp"
+
+        android:ems="10"
+
+        android:inputType="textMultiLine"
+
+        app:layout_constraintTop_toBottomOf="@+id/checkBox5"
+
+        tools:ignore="MissingConstraints"
+
+        tools:layout_editor_absoluteX="0dp" />
+
+</android.support.constraint.ConstraintLayout>
